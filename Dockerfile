@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi8/openjdk-17
 WORKDIR /app
-COPY build/libs/customer.jar app.jar
+COPY build/libs/customer.jar customer.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","customer.jar"]
