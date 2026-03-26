@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM docker.io/library/openjdk:17-jdk-slim ✅
 WORKDIR /app
 COPY build/libs/customer.jar app.jar
 EXPOSE 8080
